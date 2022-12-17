@@ -117,3 +117,31 @@ color: #000000;
     margin-top:20px;
     margin-bottom:20px;
 }
+
+hr{
+ width: 340px;
+ color: #E6E6E6;
+ margin-left: 20px;
+}
+
+.productPurchase{
+    width: 340px;
+    margin-left:20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: -0.01em;
+color: #1A1A1A;
+}
+
+.productQuantity{
+    display: flex;
+    align-items: center;
+}
+
+.productFrequency{
+ display: flex;
+ align-items: center;
+}

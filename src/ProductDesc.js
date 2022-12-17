@@ -8,7 +8,7 @@ export const ProductDesc = ({ name, description, rating, features, shade }) => (
     <p className='productDescription'>{description}</p>
     <figure>
       <img src={rating} className="productRating" alt="Product Rating" />
-      <img src={caret}  className="allRatings"alt="View All Ratings" />
+      <img src={caret} className="allRatings" alt="View All Ratings" />
     </figure>
     <section className="feauturesContainer">
       <div className="featureDescription">
@@ -33,9 +33,8 @@ export const ProductDesc = ({ name, description, rating, features, shade }) => (
     <section className="shadeContainer">
       <div className="shadeDescription">
         <div> <span className='shadeName'>{shade.name}</span></div>
-     <div> <div className="shadeColor"></div></div>
+        <div> <div className="shadeColor"></div></div>
       </div>
-     
     </section>
   </section>
 );
