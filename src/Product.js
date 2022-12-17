@@ -5,6 +5,7 @@ import { ProductPurchase } from './ProductPurchase';
 import { ProductGrid } from './ProductGrid';
 
 import './styles/product.scss';
+import './styles/mediaqueries.scss';
 
 export const Product = ({
   productData: {

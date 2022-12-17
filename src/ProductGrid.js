@@ -6,6 +6,7 @@ import './styles/product.scss';
 export const ProductGrid = ({ heading, cta1, p1Name, p1Img, p1Price, p2Name, p2Img, p2Price, p3Name, p3Img, p3Price, p4Name, p4Img, p4Price }) =>
   <section className="productGrid">
     <h2 className="productSuggestion">{heading}</h2>
+    <div className="desktopArragement">
     <div className="productBackground">
       <ProductImage image={p1Img} />
     </div>
@@ -53,5 +54,6 @@ export const ProductGrid = ({ heading, cta1, p1Name, p1Img, p1Price, p2Name, p2I
       <div className="Cta">
       <button className="shopNow">{cta1}</button>
       </div>
+    </div>
     </div>
   </section>

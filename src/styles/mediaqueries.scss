@@ -1,0 +1,94 @@
+@media (max-width: 425px){
+    
+    .productName {
+    width: 340px;
+    font-size: 20px;
+    }
+
+    .feauturesContainer {
+        width: 340px;
+    }
+    .productGrid {
+        width: 340px;
+    }
+    .wrapper {
+        width: 360px;
+        margin-left: 20px;
+    }
+}
+@media (max-width:320px)  {
+   /* smartphones, iPhone, portrait 480x320 phones */ 
+   
+   .productName {
+    width: 300px;
+    font-size: 17px;
+}
+.productDescription {
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #1A1A1A;
+}
+.shadeContainer {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    width: 300px;
+    height: 56px;
+    border: 2px solid #E6E6E6;
+}
+
+.productPurchase {
+    width: 300px;
+    font-size: 14px;
+}
+hr {
+    width: 300px;
+}
+
+.productAcquisition {
+    width: 300px;
+}
+.addToBag {
+    width: 290px;
+}
+.productBackground {
+    width: 300px;
+}
+.shopNow {
+    width: 290px;
+}
+
+.retailWrapper {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.productRetailDetails {
+    width: 300px;
+}
+.productRetailDetails h1 {
+    font-size: 16px;
+}
+  }
+@media (min-width:481px)  {
+   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  }
+@media (min-width:641px)  { 
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+ }
+@media (min-width:961px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+ }
+@media (min-width:1025px) {
+   /* big landscape tablets, laptops, and desktops */ 
+   
+
+  }
