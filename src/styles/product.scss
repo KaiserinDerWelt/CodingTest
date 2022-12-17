@@ -1,26 +1,119 @@
-
 @import 'variables.scss';
 
-/** Add styles here **/
-
-.category{
-height: 20px;
-width: 160px;
-text-align: left;
-color: #999999;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-letter-spacing: 0.03em;
-margin-left: 20px;
+.category {
+    height: 20px;
+    width: 160px;
+    text-align: left;
+    color: #999999;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    margin-left: 20px;
 }
 
-.productImage{
-position: absolute;
-width: 169.55px;
-height: 292px;
-margin-left: 105px;
-margin-top: 210px;
-background-color: #FFFFFF;
+.productImage {
+    position: absolute;
+    width: 169.55px;
+    height: 292px;
+    margin-left: 105px;
+    margin-top: 210px;
+    background-color: #FFFFFF;
+}
+
+.productName {
+    width: 340px;
+    height: 48px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #1A1A1A;
+}
+
+.productDescription {
+    width: 341px;
+    height: 40px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #1A1A1A;
+}
+
+.productRating {
+    width: 115px;
+    height: 20px;
+    margin-left: -20px;
+}
+
+.feauturesContainer {
+    margin-left: 20px;
+
+}
+
+.featureDescription {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #1A1A1A;
+}
+
+.feature {
+    margin-bottom: 0px;
+}
+
+.featureDetails {
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+
+}
+
+.shadeContainer {
+    margin-left: 20px;
+    margin-bottom:20px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    width: 340px;
+    height: 56px;
+    border: 2px solid #E6E6E6;
+}
+
+
+.shadeName{
+width: 46px;
+height: 20px;
+margin-top: 40px;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: -0.01em;
+color: #000000;
+}
+
+.shadeColor{
+    height: 16px ;
+    width: 16px ;
+    background-color: #F6DFC8;
+}
+
+.shadeDescription{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
 }

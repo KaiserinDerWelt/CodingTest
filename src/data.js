@@ -5,7 +5,7 @@ export const data = {
   "features": {
     "benefits": "Glow and natural radiance, SPF",
     "finish": "Radiant",
-    "keyIngredients": "Corlander Seed, Black Pepper, Patchouli",
+    "keyIngredients": "Corlander Seed, Black Pepper, Patchouli.",
     "coverage": "Sheer to Moderate"
   },
   "ratingURL":require('./images/rating-4.png'),
