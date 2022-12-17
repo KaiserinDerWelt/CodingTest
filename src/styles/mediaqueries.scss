@@ -77,16 +77,59 @@ hr {
     font-size: 16px;
 }
   }
-@media (min-width:481px)  {
-   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-  }
 @media (min-width:641px)  { 
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
  }
 @media (min-width:961px)  { 
   /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .productShowCaseWrapper{
+    display: flex;
+    position: relative;
+  }
 
+  .dividerProductDescription{
+    width: 340px;
+    color: #E6E6E6;
+    margin-left: 20px;
+  }
+
+  
+  hr {
+    width: 1176px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.productGrid {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.productBackground {
+    width: 276px;
+    height: 344px;
+}
+
+.productRetailDetails {
+    width: 276px;
+    height: 96px;
+}
+
+.productRetailDetails h1 {
+    width: 276px;
+}
+
+.shopNow {
+    width: 276px;
+    height: 64px;
+}
+.desktopArragement{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
  }
+
+ 
 @media (min-width:1025px) {
    /* big landscape tablets, laptops, and desktops */ 
    
