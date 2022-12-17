@@ -2,3 +2,25 @@
 @import 'variables.scss';
 
 /** Add styles here **/
+
+.category{
+height: 20px;
+width: 160px;
+text-align: left;
+color: #999999;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.03em;
+margin-left: 20px;
+}
+
+.productImage{
+position: absolute;
+width: 169.55px;
+height: 292px;
+margin-left: 105px;
+margin-top: 210px;
+background-color: #FFFFFF;
+}

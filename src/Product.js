@@ -20,9 +20,9 @@ export const Product = ({
   },
 }) => (
   <main>
-    <h4>{category}</h4>
+    <h4 className="category">{category}</h4>
     <div>
-      <ProductImage image={imgURL} />
+      <ProductImage className="productImage" image={imgURL} />
     </div>
     <div>
       <ProductDesc
