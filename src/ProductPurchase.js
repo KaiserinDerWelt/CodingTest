@@ -16,6 +16,9 @@ export const ProductPurchase = ({ price }) =>
       One Time Purchase  <img src={caret} alt="Select Frequency"/>
     </div>
     </div>
-    <div>{price}</div>
-    <button name="AddToBag">Add To Bag</button>
+    <div className="productAcquisition">
+    <div className="productPrice">{price}</div>
+    <button name="AddToBag" className="addToBag">Add To Bag</button>
+    </div>
+    
   </section>
