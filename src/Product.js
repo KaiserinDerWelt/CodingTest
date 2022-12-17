@@ -36,6 +36,7 @@ export const Product = ({
       <hr />
       <ProductPurchase price={price} />
     </div>
+    <hr />
     <div>
       <ProductGrid
         heading={crossSell.heading}
