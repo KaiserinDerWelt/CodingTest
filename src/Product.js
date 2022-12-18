@@ -22,24 +22,24 @@ export const Product = ({
 }) => (
   <main>
     <div className="categoryDesktop">
-    <h4 className="category">{category}</h4>
+      <h4 className="category">{category}</h4>
     </div>
     <div className="productShowCaseWrapper">
-    <div className="productImageContainer">
-      <ProductImage className="productImage" image={imgURL} />
-    </div>
-    <div className="productDescriptionContainer">
-      <ProductDesc
-        category={category}
-        name={name}
-        description={description}
-        rating={ratingURL}
-        features={features}
-        shade={shade}
-      />
-      <hr className="dividerProductDescription"/>
-      <ProductPurchase price={price} />
-    </div>
+      <div className="productImageContainer">
+        <ProductImage className="productImage" image={imgURL} />
+      </div>
+      <div className="productDescriptionContainer">
+        <ProductDesc
+          category={category}
+          name={name}
+          description={description}
+          rating={ratingURL}
+          features={features}
+          shade={shade}
+        />
+        <hr className="dividerProductDescription" />
+        <ProductPurchase price={price} />
+      </div>
     </div>
     <hr />
     <div>
