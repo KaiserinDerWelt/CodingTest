@@ -11,6 +11,7 @@ export const ProductDesc = ({ name, description, rating, features, shade }) => (
       <img src={caret} className="allRatings" alt="View All Ratings" />
     </figure>
     <section className="feauturesContainer">
+      <div className="featureDesktopArragement">
       <div className="featureDescription">
         <h4 className="feature">Benefits</h4>
         <p className="featureDetails">{features.benefits}</p>
@@ -19,6 +20,8 @@ export const ProductDesc = ({ name, description, rating, features, shade }) => (
         <h4 className="feature">Finish</h4>
         <p className="featureDetails">{features.finish}</p>
       </div>
+      </div>
+      <div className="featureDesktopArragement">
       <div className="featureDescription">
         <h4 className="feature">Coverage</h4>
         <p className="featureDetails">{features.coverage}</p>
@@ -28,6 +31,7 @@ export const ProductDesc = ({ name, description, rating, features, shade }) => (
         <p className="featureDetails">
           {features.keyIngredients} <a href="http://www.clinique.com">More</a>
         </p>
+      </div>
       </div>
     </section>
     <section className="shadeContainer">

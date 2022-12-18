@@ -1,137 +1,327 @@
-@media (max-width: 425px){
-    
+@media (max-width: 425px) {
+
     .productName {
-    width: 340px;
-    font-size: 20px;
+        width: 340px;
+        font-size: 20px;
     }
 
     .feauturesContainer {
         width: 340px;
     }
+
     .productGrid {
         width: 340px;
     }
+
     .wrapper {
         width: 360px;
         margin-left: 20px;
     }
 }
-@media (max-width:320px)  {
-   /* smartphones, iPhone, portrait 480x320 phones */ 
-   
-   .productName {
-    width: 300px;
-    font-size: 17px;
-}
-.productDescription {
-    width: 300px;
-    height: 40px;
-    margin-left: 20px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    color: #1A1A1A;
-}
-.shadeContainer {
-    margin-left: 20px;
-    margin-bottom: 20px;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    width: 300px;
-    height: 56px;
-    border: 2px solid #E6E6E6;
+
+@media (max-width:375px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+
+    .productName {
+        width: 300px;
+        font-size: 17px;
+    }
+
+    .productDescription {
+        width: 300px;
+        height: 40px;
+        margin-left: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #1A1A1A;
+    }
+
+    .shadeContainer {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        width: 300px;
+        height: 56px;
+        border: 2px solid #E6E6E6;
+    }
+
+    .productPurchase {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    .productAcquisition {
+        width: 300px;
+    }
+
+    .addToBag {
+        width: 290px;
+    }
+
+    .productBackground {
+        width: 300px;
+    }
+
+    .shopNow {
+        width: 290px;
+    }
+
+    .retailWrapper {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .productRetailDetails {
+        width: 300px;
+    }
+
+    .productRetailDetails h1 {
+        font-size: 16px;
+    }
 }
 
-.productPurchase {
-    width: 300px;
-    font-size: 14px;
-}
-hr {
-    width: 300px;
+@media (max-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+
+    .productName {
+        width: 300px;
+        font-size: 17px;
+    }
+
+    .productDescription {
+        width: 300px;
+        height: 40px;
+        margin-left: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #1A1A1A;
+    }
+
+    .shadeContainer {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        width: 300px;
+        height: 56px;
+        border: 2px solid #E6E6E6;
+    }
+
+    .productPurchase {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    .productAcquisition {
+        width: 300px;
+    }
+
+    .addToBag {
+        width: 290px;
+    }
+
+    .productBackground {
+        width: 300px;
+    }
+
+    .shopNow {
+        width: 290px;
+    }
+
+    .retailWrapper {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .productRetailDetails {
+        width: 300px;
+    }
+
+    .productRetailDetails h1 {
+        font-size: 16px;
+    }
 }
 
-.productAcquisition {
-    width: 300px;
-}
-.addToBag {
-    width: 290px;
-}
-.productBackground {
-    width: 300px;
-}
-.shopNow {
-    width: 290px;
-}
+@media (min-width:961px) {
 
-.retailWrapper {
-    width: 300px;
-    margin-bottom: 50px;
-}
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    main {
+        margin-top: 66px;
+    }
 
-.productRetailDetails {
-    width: 300px;
-}
-.productRetailDetails h1 {
-    font-size: 16px;
-}
-  }
-@media (min-width:641px)  { 
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
- }
-@media (min-width:961px)  { 
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .productShowCaseWrapper{
-    display: flex;
-    position: relative;
-  }
+    .categoryDesktop {
+        display: flex;
+        justify-content: center;
+        margin-left: 80px;
+        height: 24px;
+    }
 
-  .dividerProductDescription{
-    width: 340px;
-    color: #E6E6E6;
-    margin-left: 20px;
-  }
+    .productShowCaseWrapper {
+        display: flex;
+        position: relative;
+        align-items: flex-start;
+    }
 
-  
-  hr {
-    width: 1176px;
-    margin-left: 64px;
-    margin-right: 64px;
-}
-.productGrid {
-    margin-left: 64px;
-    margin-right: 64px;
-}
+    .productImageContainer {
+        width: 539px;
+        height: 674px;
+        margin-left: 64px;
+        margin-right: 64px;
+    }
 
-.productBackground {
-    width: 276px;
-    height: 344px;
-}
 
-.productRetailDetails {
-    width: 276px;
-    height: 96px;
-}
+    .productName {
+        width: 564px;
+        height: 64px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        color: #1A1A1A;
+    }
 
-.productRetailDetails h1 {
-    width: 276px;
-}
+    .productDescription {
+        width: 540px;
+        height: 48px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #1A1A1A;
+    }
 
-.shopNow {
-    width: 276px;
-    height: 64px;
-}
-.desktopArragement{
-    width: auto;
-    display: flex;
-    flex-direction: row;
-}
- }
 
- 
-@media (min-width:1025px) {
-   /* big landscape tablets, laptops, and desktops */ 
-   
+    .dividerProductDescription {
+        width: 576px;
+        color: #E6E6E6;
+        margin-left: 20px;
+    }
 
-  }
+    .productRating {
+        width: 120px;
+        height: 26px;
+    }
+
+    .allRatings {
+        margin-bottom: 8px;
+    }
+
+    .featureDescription {
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        margin-right: 24px;
+        color: #1A1A1A;
+    }
+
+    .feauturesContainer {
+        display: flex;
+        position: relative;
+        align-items: flex-start;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #1A1A1A;
+
+    }
+
+    .shadeContainer {
+        width: 276px;
+        height: 64px;
+    }
+
+    .productQuantity {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .productFrequency {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .productPurchase {
+        width: 576px;
+    }
+
+    .productAcquisition {
+        width: 576px;
+        margin-top: 36px;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .productPrice {
+        width: 83px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+
+    .addToBag {
+        width: 276px;
+        height: 64px;
+
+    }
+
+    hr {
+        width: 1176px;
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .productGrid {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .productBackground {
+        width: 276px;
+        height: 344px;
+    }
+
+    .productRetailDetails {
+        width: 276px;
+        height: 96px;
+    }
+
+    .productRetailDetails h1 {
+        width: 276px;
+    }
+
+    .shopNow {
+        width: 276px;
+        height: 64px;
+    }
+
+    .desktopArragement {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+}

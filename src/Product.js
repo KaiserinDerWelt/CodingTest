@@ -21,8 +21,10 @@ export const Product = ({
   },
 }) => (
   <main>
-    <div className="productShowCaseWrapper">
+    <div className="categoryDesktop">
     <h4 className="category">{category}</h4>
+    </div>
+    <div className="productShowCaseWrapper">
     <div className="productImageContainer">
       <ProductImage className="productImage" image={imgURL} />
     </div>
